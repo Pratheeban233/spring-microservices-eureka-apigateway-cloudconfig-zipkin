@@ -1,0 +1,16 @@
+server:
+  port: 9002
+
+spring:
+  application:
+    name: USER-SERVICE
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/student-management
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: root
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update

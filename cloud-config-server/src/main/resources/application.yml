@@ -1,0 +1,13 @@
+server:
+  port: 9193
+
+spring:
+  application:
+    name: CLOUD-CONFIG
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Pratheeban233/cloud-config
+          default-label: main
+          clone-on-start: true
